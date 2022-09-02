@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.header {
+    background-color: rgb(32, 204, 204);
+    height: 50px;
+    width: 100%;
+    padding-top: 25px;
+    display: flex;
+    justify-content: flex-end;
+    
+}
+.image-header{
+    color: rgb(255, 255, 255);
+    background-image: url(https://images.unsplash.com/photo-1658847338849-fd76cee49bf0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80);
+    background-size: cover;
+    padding-top: 80px;
+    padding-bottom: 100px;
+
+}
+.image-header h1 {
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    margin-left: 20px;
+    font-size: 52px;
+}
+.image-header h3 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    color: black;
+    margin-left: 20px;
+    margin-right: 300px;
+    opacity: 0,5;
+}
+.header li {
+    display: inline;
+    margin-right: 20px;
+    color: white;
+    font-size: 24px;
+}
+.header a {
+    color: aliceblue;
+    font-size: 20px;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 50px;
+}
+.blog-list{
+    margin-bottom: 20px;
+}
+
+.blog-list h2 {
+    font-size: 32px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.blog-list h3 {
+    font-size: 24px;
+    color: rgb(46, 43, 43);
+}
+img {
+    height: 300px;
+    width: 500px;
+    border-radius: 20px;
+}
+p {
+    font-size: 20px;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
